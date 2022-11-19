@@ -1,0 +1,118 @@
+.nav {
+    background-color: darkkhaki;
+}
+.btn {
+    float: right;
+    margin-top: -80px;
+    
+    
+}
+#p-p {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+h1 {
+    color:blue;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+h4 {
+    color:red;
+    margin-left:100px;
+    margin-top: -20px;
+}
+#button {
+    background-color: blue;
+    /* margin-bottom: -700px; */
+    padding: 10px;
+    border-radius: 10px;
+}
+span {
+    margin-top: -30px;
+}
+.prep {
+    padding:20px
+}
+.main-comtainer {
+    background-color: blueviolet;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+.my-box {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 20px;
+}
+p {
+    text-align: center;
+    margin-top: 50px;
+    color: gold;
+}
+#button:hover {
+    background-color: dodgerblue;
+    color:aliceblue
+}
+#my-box-1:hover {
+    height: 250px;
+    width:250px;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray ;
+    background-color: aqua;
+    
+}
+#my-box-2:hover {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#my-box-3:hover {
+    border-radius: 50%;
+    height: 150px;
+    width:150px;
+    background-color: chartreuse;
+}
+#my-box-4:hover {
+    background-color:blue;
+    transform: rotateY(60deg)
+}
+    
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+     .main-comtainer {
+        display:grid;
+        background-color: dodgerblue;
+     }
+     .btn {
+        visibility:hidden;
+     }
+     #my-box-1:hover {
+        height: 250px;
+        width:250px;
+        box-shadow: 6px 6px 6px 6px solid gray;
+        background-color: aqua;
+        
+    }
+    #my-box-2:hover {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    }
+    #my-box-3:hover {
+        border-radius: 50%;
+        height: 150px;
+        width:150px;
+        background-colo
+ 
+    }
+
+    #my-box-4:hover {
+    transform: rotateY(60deg);
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px grey;
+
+    
+}
+}
