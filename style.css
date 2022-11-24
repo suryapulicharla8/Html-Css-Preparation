@@ -39,6 +39,7 @@ span {
     height: 1000px;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 .my-box {
     height: 150px;
@@ -62,7 +63,9 @@ p {
     width:250px;
     box-shadow: 4px 4px 4px gray, -4px -4px 4px gray ;
     background-color: aqua;
-    
+    text-align: center;
+     /* margin-top: 200px; */
+        
 }
 #my-box-2:hover {
     height: 100px;
@@ -81,10 +84,12 @@ p {
 }
     
 
-@media only screen and (min-width:400px) and (max-width:600px) {
+@media only screen and (min-width:300px) and (max-width:500px) {
     .main-comtainer {
         display:grid;
         background-color: dodgerblue;
+        justify-content: center;
+        margin: 5px;
      }
      .btn {
         visibility:hidden;
@@ -105,13 +110,12 @@ p {
         border-radius: 50%;
         height: 150px;
         width:150px;
-        background-colo
  
      }
 
         #my-box-4:hover {
         transform: rotateY(60deg);
         box-shadow:4px 4px 4px 4px gray ;
-}
-}
+    }
+    
      
